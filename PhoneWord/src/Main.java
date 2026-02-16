@@ -17,21 +17,21 @@ void main() {
 
     // iterates through table of chars and matches it to strings in storage
     for (int i = 0; i < userInput.length(); i++ ) {
-         if (Strings.nums[2].indexOf(stringChars[i], 0) != -1 ) {
+         if (Strings.nums[2].contains(stringChars[i])) {
              outputString += "2";
-         } else if (Strings.nums[3].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[3].contains(stringChars[i])) {
              outputString += "3";
-         } else if (Strings.nums[4].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[4].contains(stringChars[i])) {
              outputString += "4";
-         } else if (Strings.nums[5].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[5].contains(stringChars[i])) {
              outputString += "5";
-         } else if (Strings.nums[6].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[6].contains(stringChars[i])) {
              outputString += "6";
-         } else if (Strings.nums[7].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[7].contains(stringChars[i])) {
              outputString += "7";
-         } else if (Strings.nums[8].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[8].contains(stringChars[i])) {
              outputString += "8";
-         } else if (Strings.nums[9].indexOf(stringChars[i], 0) != -1) {
+         } else if (Strings.nums[9].contains(stringChars[i])) {
              outputString += "9";
 
          } try {
