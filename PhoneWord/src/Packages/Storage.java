@@ -5,7 +5,7 @@ public class Storage {
             "",
             "abc, ABC",
             "def, DEF",
-            "ghl, GHL",
+            "ghi, GHI",
             "jkl, JKL",
             "mno, MNO",
             "pgrs, PQRS",
@@ -14,3 +14,4 @@ public class Storage {
     };
 
 }
+
